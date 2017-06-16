@@ -1,6 +1,6 @@
 <?php
 
-	define('DEV',1);
+	define('DEV',0);
 
 	if (DEV ==1 ){ 
 		/*$server="192.168.1.122";
@@ -21,10 +21,15 @@
 			$login="fhost766_passfb";
 			$pass="TuxGill#2016";*/
 
-						$server="localhost";
-			$db="tuxdigit_passvulcanos";
-			$login="tuxdigit_passfb";
-			$pass="TuxGill#2016";
+			$server="192.168.1.122";
+			$db="vulcano_fb_tabs";
+			$login="root";
+			$pass="";
+
+			// $server="localhost";
+			// $db="tuxdigit_passvulcanos";
+			// $login="tuxdigit_passfb";
+			// $pass="TuxGill#2016";
 		}	
 
 	// connect to the server
@@ -36,7 +41,7 @@
 	  exit('Connect failed: '. mysqli_connect_error());
 	}
 
-	define('NOME_PASSATEMPO',utf8_decode('Dia da Criança'));
+	define('NOME_PASSATEMPO',utf8_decode('Dia da Criança 2017'));
 	
 	/* FB CRED */
 	define('APP_ID','1529223720716423');

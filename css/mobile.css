@@ -1,9 +1,23 @@
+@media screen and (max-width: 1419px) {
+	.content{
+		margin-top: -374px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.content{
+		margin-top: -515px;
+	}
+}
+
 @media screen and (max-width: 990px) {
 	.dash{
 		font-size: 30px;
 		padding: 30px;
 	}
-
+	.content{
+		margin-top: -600px;
+	}
 
 
 }
@@ -20,8 +34,22 @@
 	}
 
 	.content{
-	    height: 1700px;
+	    height: 2250px;
+	}
+
+	.right-paragraph img{
+		margin: 0;
+	}
+
+	.pre-disclamer{
+		height: 60px;
+	}
 }
+
+@media screen and (max-width: 830px) {
+	.content{
+		margin-top: -715px;
+	}
 }
 
 @media screen and (max-width: 732px) {
@@ -51,7 +79,11 @@
 		width:90%;
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-top: 130px;
+		margin-top: 200px;
+	}
+
+	.right-paragraph img{
+		margin: 0;
 	}
 
 }
@@ -84,34 +116,42 @@
 		margin: 0 5%;
 	}
 
-		.content{
-	    height: 1700px;
-}
+	.content{
+	    height: 2250px;
+	    margin-top: -737px;
+	}
 
 	header{
+		height:824px;
 			
-		background-size: cover;
-		background-blend-mode: multiply;
+		/*background-size: cover;
+		background-blend-mode: multiply;*/
+	}
+
+	.pre-disclamer{
+		height:100px;
+	}
+
+	form label {
+	    margin-left: 10px;
+	    font-size: 12px;
+	    max-width: 90%;
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 
-.content{
-	height: 1700px;
+	.content{
+		margin-top: -760px;
+	}
 }
 
-.pre-disclamer{
-	height:100px;
-}
+@media screen and (max-width: 500px) {
 
-form label {
-    margin-left: 10px;
-    font-size: 12px;
-    max-width: 90%;
+	.content{
+		margin-top: -805px;
+		height: 2500px;
+	}
 }
-
-}
-
 
 

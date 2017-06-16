@@ -33,7 +33,7 @@
       <div class="logo-mobile"><img src="imgs/logo-vulcano.png" alt=""></div>
       <div class="row">
         <header id="header" class=" col-md-12 col-xs-12 col-sm-12">
-          <div class="dash"><p>Ganha 1 Casa Ecológica</p></div>
+          <div class="dash"><p>Ganha uma Casa Solar</p></div>
           <div class="logo-desktop"><img src="imgs/logo-vulcano.png" alt=""> </div>
 
           
@@ -43,38 +43,50 @@
 
              <?php if (!isset($_GET['status'])) { ?>
             <div class="text-content col-md-8 col-xs-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-              <h1>passatempo dia da criança e dia do ambiente</h1>
+              <h1>MOSTRA QUE ÉS ARTISTA<br>E GANHA UMA CASA SOLAR</h1>
               <div class="info-content">
-              <p>A Vulcano está a celebrar o Dia da Criança e o Dia do Ambiente e desafia pais e filhos a criar um porquinho mealheiro apenas com materiais recicláveis: embalagens de plástico ou de cartão,
-                garrafas, tampas, jornais e revistas, entre outros.</p>
+                <p>No mês em que se celebra o Dia da Criança e o Dia do Ambiente, a Vulcano desafia-te a usar a imaginação e mostrares o que sabes sobre energias renováveis e preocupação ambiental.
+                </p>
                 
                 <div style="float:left;">
                   <p class="left-paragraph">
+                  <span>De 19 a 25 de junho, desenha a mais original Casa Ecológica Vulcano e ganha o teu prémio!</span>
+                  <br>
+                  <br>
+                  Uma Casa Ecológica Vulcano é uma casa em 
+                  que quem lá vive faz as escolhas mais amigas 
+                  do ambiente.<br>
+                  Lá podes encontrar Painéis Solares Térmicos,
+                  que aproveitam os raios de sol para aquecer
+                  a água e manter a casa quentinha.<br>
+                  Encontras roupa a secar ao ar livre, sem gastar energia, e claro um Ecoponto para separar e reciclar todo o lixo, sem desperdícios.<br><br>
+                  Mas há muito mais que uma casa amiga 
+                  do ambiente pode ter.<br><br>
 
-
-                  
-
-                  O porquinho mealheiro mais original ganha uma Casa Ecológica.
-
-                  Se já ouviste falar em energia solar, energia do vento ou reações eletroquímicas este prémio  é perfeito para ti. A Casa Ecológica é uma verdadeira amiga do ambiente que te vai ensinar, passo  por passo, como transformar, armazenar   e utilizar a nossa energia renovável. 
-
+                  Por isso, está na hora de usares
+                  a tua imaginação para fazer o desenho 
+                  da tua Casa Ecológica Vulcano.<br><br>
                   </p>
 
                   <p class="right-paragraph">
-                    <img src="imgs/casa_gr.png"> 
-                    
+                    <img src="imgs/premio.png"> 
                   </p>
 
                 </div>
 
-                <p>
-                  Agora só tens de usar a tua energia para ganhares este passatempo!  <br><br>
-
-                  Pede aos teus pais para preencherem os dados e enviarem-nos a fotografia do teu porquinho mealheiro criado com materiais recicláveis.
-
-
-
+                <p class="instrucoes">
+                  Se quiseres mais inspiração sobre escolhas e comportamentos ecológicos,
+                  vem aqui ler a banda desenhada que fizemos para ti.
                 </p>
+
+                <p class="bd">
+                  <img class="bandadesenhada" src="imgs/bandadesenhada1.jpg">
+                  <br>
+                  <br>
+                  <span>Banda desenhada</span>
+                </p>
+
+                <p class="updesenho">Depois pede aos teus pais para preencherem os dados necessários, e enviarem-nos a fotografia com o teu fantástico desenho. Se for o mais original de todos, o prémio é teu!</p>
               </div>
 
                <form action="submit.php" method="post"  onsubmit="return validateForm()" enctype="multipart/form-data">
@@ -98,7 +110,7 @@
                   </li>
                   <li class="pre-disclamer">
                     <p class="disclamer">A leitura e aceitação dos termos constantes do presente Regulamento Específico, não dispensam a consulta e aceitação 
-do Regulamento Geral de Passatempos disponível <a href="https://www.facebook.com/VulcanoPortugal/app/924626224245221/" target="_blank">aqui</a></p>
+do Regulamento Geral de Passatempos disponível <!-- em https://www.facebook.com/VulcanoPortugal/app_924626224245221 --> <a href="https://www.facebook.com/VulcanoPortugal/app_924626224245221" target="_blank">aqui.</a></p>
                   </li>
 
                   <li>
@@ -132,8 +144,6 @@ Os vencedores serão anunciadas no dia 25 de agosto no Facebook da Vulcano. -->
         </div>
       </div>
     </div>
-
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
